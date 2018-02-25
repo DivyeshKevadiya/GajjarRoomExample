@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.kanu_lp.gajjarroom.MainActivity"
+    tools:showIn="@layout/activity_main">
+    <Button
+        android:layout_width="wrap_content"
+        android:text="Order By Age"
+        android:id="@+id/btn_byage"
+        android:layout_margin="2dp"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="wrap_content"
+        android:text="Order By id"
+        android:layout_margin="2dp"
+        android:id="@+id/btn_byid"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="Matching with First Name"
+        android:id="@+id/edit_like_firstname"
+        android:layout_height="wrap_content" />
+<EditText
+        android:layout_width="match_parent"
+    android:hint="Matching with Last Name"
+        android:id="@+id/edit_like_lastname"
+        android:layout_height="wrap_content" />
+<EditText
+        android:layout_width="match_parent"
+    android:hint="Same Age"
+        android:id="@+id/edit_like_age"
+    android:inputType="number"
+        android:layout_height="wrap_content" />
+
+
+
+   <!-- <Button
+        android:layout_width="wrap_content"
+        android:text=""
+        android:id="@+id/btn_"
+        android:layout_height="wrap_content" />
+-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Count"
+        android:textSize="18sp"
+        android:id="@+id/text_count"
+        android:layout_margin="2dp"
+        android:layout_height="wrap_content" />
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:id="@+id/recyclerview"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content">
+
+    </android.support.v7.widget.RecyclerView>
+
+
+</LinearLayout>
